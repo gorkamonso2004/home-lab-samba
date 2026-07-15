@@ -12,9 +12,9 @@
   <p align="center">
   <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/6dd2f14e799c96b01ec641f8e0ab0f681ffb002a/cap2.png" alt="Configuración de red Host-Only en VirtualBox" width="80%" />
 </p>
-  * **Nombre:** `Ubuntu-Server-Lab`
-  * **Tipo:** `Linux`
-  * **Versión:** `Ubuntu (64-bit)`
+  * Nombre: `Ubuntu-Server-Lab`
+  * Tipo: `Linux`
+  * Versión:`Ubuntu (64-bit)`
 
 * **1.2 Asignamos los recursos de hardware:**  
   Le damos a nuestra máquina un mínimo de **2048 MB de RAM** (2 GB) y **1 CPU** para que funcione de manera fluida.
