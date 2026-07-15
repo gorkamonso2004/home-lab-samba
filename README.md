@@ -17,14 +17,6 @@ Sigue estos pasos para configurar tu entorno virtual en VirtualBox:
 *   **1.5 Instalación del Sistema Operativo:** 
     Inicia la máquina, selecciona la imagen ISO de *Ubuntu Server* que descargaste y sigue los pasos del instalador. Durante el proceso, define tu usuario administrador (por ejemplo, `administrador`).
 
----
-
-> 💡 **Nota importante:** Asegúrate de recordar la contraseña del usuario administrador que configures en el paso 1.5, ya que la necesitarás para gestionar el servidor mediante SSH o directamente en la terminal de VirtualBox.
-
-### Captura del Proceso:
-Para verificar que el adaptador de red esté correctamente configurado en modo **Host-Only**, puedes guiarte con la siguiente captura:
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/gorkamonso2004/home-lab-samba/0bc191a78ed113a86c3f0d886edc3f45f57d0d73/Captura%20de%20pantalla%202026-07-15%20185054.png" alt="Configuración de red Host-Only en VirtualBox" width="80%" />
 </p>
-![image alt](https://github.com/gorkamonso2004/home-lab-samba/blob/0bc191a78ed113a86c3f0d886edc3f45f57d0d73/Captura%20de%20pantalla%202026-07-15%20185054.png)
