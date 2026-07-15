@@ -25,7 +25,7 @@
   Le damos a nuestra máquina un mínimo de **2048 MB de RAM** (2 GB) y **1 CPU** para que funcione de manera fluida.
 
    <p align="center">
-    <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/927cb2d6db4edff499181489ff250577a2d240fd/cap3.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
+    <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/75644578b4349927d89a6198f95d87340fd53655/cap5.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
   </p>
 
 
