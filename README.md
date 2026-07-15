@@ -1,1 +1,1 @@
-# Mi Primer Laboratorio de TI: Samba
+# Laboratorio SAMBA
