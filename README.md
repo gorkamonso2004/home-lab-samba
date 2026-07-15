@@ -1,7 +1,9 @@
 # Laboratorio SAMBA
 ## 1. Instalación y Creación de la Máquina Ubuntu Server
-
-Sigue estos pasos para configurar tu entorno virtual en VirtualBox:
+ 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gorkamonso2004/home-lab-samba/0bc191a78ed113a86c3f0d886edc3f45f57d0d73/Captura%20de%20pantalla%202026-07-15%20185054.png" alt="Configuración de red Host-Only en VirtualBox" width="80%" />
+</p>
 
 *   **1.1 Crear la máquina virtual:** 
     Hace clic en **Nueva** en VirtualBox. 
@@ -17,6 +19,4 @@ Sigue estos pasos para configurar tu entorno virtual en VirtualBox:
 *   **1.5 Instalación del Sistema Operativo:** 
     Inicia la máquina, selecciona la imagen ISO de *Ubuntu Server* que descargaste y sigue los pasos del instalador. Durante el proceso, define tu usuario administrador (por ejemplo, `administrador`).
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gorkamonso2004/home-lab-samba/0bc191a78ed113a86c3f0d886edc3f45f57d0d73/Captura%20de%20pantalla%202026-07-15%20185054.png" alt="Configuración de red Host-Only en VirtualBox" width="80%" />
-</p>
+
