@@ -16,6 +16,13 @@
     <img src="https://raw.githubusercontent.com/gorkamonso2004/home-lab-samba/6dd2f14e799c96b01ec641f8e0ab0f681ffb002a/cap2.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
   </p>
 
+    <p align="center">
+    <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/f960d9ed13795e5ddc80984663cbb7f730d308cf/cap3.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
+  </p>
+
+    <p align="center">
+    <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/f960d9ed13795e5ddc80984663cbb7f730d308cf/cap4.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
+  </p>
   Rellenamos los datos del asistente de la siguiente manera:
   * **Nombre:** `Ubuntu-Server-Lab`
   * **Tipo:** `Linux`
