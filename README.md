@@ -49,6 +49,3 @@
     <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/591dbb085719cd39ae4560976af59f8277dc3be5/cap6.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
   </p>
 
-
-* **1.5 Instalamos el Sistema Operativo:**  
-  Arrancamos la máquina virtual, cargamos la imagen ISO de *Ubuntu Server* que nos descargamos al principio y seguimos los pasos que nos indica el instalador. Durante este proceso, definimos nuestro usuario administrador (en nuestro caso, utilizaremos `administrador`).
