@@ -39,6 +39,10 @@
 * **1.3 Configuramos el almacenamiento:**  
   Creamos un nuevo disco duro virtual de **15 GB** utilizando el formato *VDI* y seleccionamos la opción de *reservado dinámicamente* para no ocupar espacio de golpe en nuestro disco físico.
 
+    <p align="center">
+    <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/cc1c9ff98f5b3b7ac16a552e0465042ea8f61c52/cap5.png" alt="Creación de la máquina virtual en VirtualBox" width="80%" />
+  </p>
+
 * **1.4 Ajustamos la configuración de red:**  
   Nos dirigimos a los ajustes de la máquina virtual que acabamos de crear. En la pestaña de **Red**, habilitamos el *Adaptador 1* y lo conectamos a la red **Adaptador solo-anfitrión (Host-Only)** que preparamos en el paso anterior.
 
