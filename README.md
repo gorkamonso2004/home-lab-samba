@@ -94,15 +94,3 @@ Una vez el servidor esté configurado y activo, realizaremos las pruebas de cone
 4. **Prueba 2 (Acceso total):** Cierra la sesión, vuelve a ingresar las credenciales usando `admin_lab` y verifica que tienes los privilegios necesarios para crear, editar y eliminar archivos o carpetas.
 
 ---
-
-## 5. Cómo documentar este laboratorio en GitHub
-
-Para añadir este proyecto a tu portafolio profesional, sigue estos pasos para estructurar tu repositorio:
-
-* **Nombre del repositorio:** Crea un repositorio público en GitHub llamado `home-lab-samba`.
-* **Archivo README.md:** Añade un archivo con las siguientes secciones clave:
-  * **Título y Descripción:** Explica de forma concisa qué es este proyecto, los objetivos de seguridad que implementa y por qué decidiste construirlo.
-  * **Diagrama de Red:** Incorpora un dibujo o esquema simple (puedes diseñarlo en herramientas gratuitas como *Draw.io*) que ilustre cómo se conecta tu máquina host física a la máquina virtual de Ubuntu Server mediante el direccionamiento Host-Only.
-  * **Explicación técnica:** Describe los comandos clave utilizados en Linux para configurar Samba, la gestión de usuarios y el propósito de cada directiva en el archivo de configuración.
-  * **Pruebas de funcionamiento:** Sube las capturas de pantalla de la terminal de Linux mostrando los servicios activos y las del Explorador de Archivos de Windows validando tanto el acceso denegado como el permitido.
-
