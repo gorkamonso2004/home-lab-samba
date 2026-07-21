@@ -126,9 +126,38 @@ Samba nos permite compartir carpetas y recursos de manera segura desde nuestro s
 Una vez el servidor esté configurado y activo, realizaremos las pruebas de conectividad desde nuestro sistema operativo principal (Windows) para validar la seguridad:
 
 1. En tu máquina física (Windows), presiona la combinación de teclas **Win + R**.
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/6a778abca193f81b8693ba9ff668d38ed1b23bfc/cap16.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+
 2. En la ventana de ejecutar, escribe la ruta de red:  
    `\\192.168.56.10\Compartido_IT` y presiona **Enter**.
+   <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/6a778abca193f81b8693ba9ff668d38ed1b23bfc/cap16.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
 3. **Prueba 1 (Acceso restringido):** Te pedirá credenciales. Inicia sesión como `invitado_lab` e intenta crear un nuevo archivo de texto. *(Deberías recibir un mensaje denegando el acceso).*
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/755e9da01bb513a1f23aed01b0c624ca8ada759e/cap19.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/755e9da01bb513a1f23aed01b0c624ca8ada759e/cap20.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
 4. **Prueba 2 (Acceso total):** Cierra la sesión, vuelve a ingresar las credenciales usando `admin_lab` y verifica que tienes los privilegios necesarios para crear, editar y eliminar archivos o carpetas.
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/755e9da01bb513a1f23aed01b0c624ca8ada759e/cap17.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/755e9da01bb513a1f23aed01b0c624ca8ada759e/cap18.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+* COmprobamos que tenemos todos los permisos y que nos deja crear algun archivo.
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/5013bdd77da2065b82484669f228602988101327/cap21.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
 
 ---
