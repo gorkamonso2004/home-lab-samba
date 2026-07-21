@@ -68,6 +68,9 @@ Nos dirigimos a los ajustes de la máquina virtual que acabamos de crear. En la 
 Para demostrar el control de acceso y la seguridad en una red corporativa simulada, crearemos dos usuarios con diferentes niveles de privilegio y un grupo de sistema:
 
 * **Creación del grupo:** Definiremos un grupo de trabajo (por ejemplo, `it_staff`) que tendrá permisos de escritura en la carpeta compartida.
+  <p align="center">
+  <img src=" https://github.com/gorkamonso2004/home-lab-samba/blob/3f820cbfc57233d488439c43827716e767f6fad4/cap8.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
 * **Usuarios a crear:**
   * `admin_lab`: Formará parte del grupo y tendrá control total (lectura y escritura).
   * `invitado_lab`: Usuario sin privilegios que solo podrá acceder en modo lectura.
