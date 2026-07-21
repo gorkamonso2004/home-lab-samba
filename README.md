@@ -147,7 +147,7 @@ Una vez el servidor esté configurado y activo, realizaremos las pruebas de cone
 
 4. **Prueba 2 (Acceso total):** Cierra la sesión, vuelve a ingresar las credenciales usando `admin_lab` y verifica que tienes los privilegios necesarios para crear, editar y eliminar archivos o carpetas.
 <p align="center">
-  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/755e9da01bb513a1f23aed01b0c624ca8ada759e/cap17.png" alt="Configuración de red en VirtualBox" width="80%" />
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/a3ec713d2496decff0c0c32392a1d8bd934b9ad5/cap17.png" alt="Configuración de red en VirtualBox" width="80%" />
 </p>
 
 <p align="center">
