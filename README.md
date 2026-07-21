@@ -100,17 +100,24 @@ Samba nos permite compartir carpetas y recursos de manera segura desde nuestro s
 </p>
 
 * Registramos los ususarios en la base de datos del Samba.
- <p align="center">
-  <img src="src="https://github.com/gorkamonso2004/home-lab-samba/blob/fc34aa6033c05d002bd7c205094858c8e79244c0/cap13.png" alt="Configuración de red en VirtualBox" width="80%" />
+  <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/fc34aa6033c05d002bd7c205094858c8e79244c0/cap13.png" alt="Configuración de red en VirtualBox" width="80%" />
 </p>
 
 * Configuraremos el archivo `/etc/samba/smb.conf` para estructurar la sección `[Compartido_IT]`, asignando los permisos correspondientes a nuestro grupo y definiendo las restricciones para el usuario invitado.
-
- <p align="center">
-  <img src="src="  https://github.com/gorkamonso2004/home-lab-samba/blob/fc34aa6033c05d002bd7c205094858c8e79244c0/cap14.png"" alt="Configuración de red en VirtualBox" width="80%" />
+  <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/cabde9ae03e72f20f33fb9c83b639f60611b640c/cap14.png" alt="Configuración de red en VirtualBox" width="80%" />
 </p>
 
 * Guardamos el archivo y reiniciamos el servicio.
+  <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/cabde9ae03e72f20f33fb9c83b639f60611b640c/cap14.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+  <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/a72b0692802c8b4336238f4a6406767a8c6d80c4/cap15.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
 
 ---
 
