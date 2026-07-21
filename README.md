@@ -67,13 +67,26 @@ Nos dirigimos a los ajustes de la máquina virtual que acabamos de crear. En la 
 
 Para demostrar el control de acceso y la seguridad en una red corporativa simulada, crearemos dos usuarios con diferentes niveles de privilegio y un grupo de sistema:
 
-* **Creación del grupo:** Definiremos un grupo de trabajo (por ejemplo, `it_staff`) que tendrá permisos de escritura en la carpeta compartida.
+* **Creación del grupo:** Definiremos un grupo de trabajo que tendrá permisos de escritura en la carpeta compartida.
   <p align="center">
   <img src=" https://github.com/gorkamonso2004/home-lab-samba/blob/3f820cbfc57233d488439c43827716e767f6fad4/cap8.png" alt="Configuración de red en VirtualBox" width="80%" />
 </p>
 * **Usuarios a crear:**
   * `admin_lab`: Formará parte del grupo y tendrá control total (lectura y escritura).
   * `invitado_lab`: Usuario sin privilegios que solo podrá acceder en modo lectura.
+ <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/aebf4a6cad480cc1fb97fac1b8c00cb670bb95dd/cap9.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/29272e4e26a5e9d0cff0189f2ee925540a304261/cap10.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+* **Crear el directorio a compartir:**
+<p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/5d603f6fae1355d636588a14f11761ecb70ac8d5/cap11.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
 
 ---
 
@@ -82,7 +95,22 @@ Para demostrar el control de acceso y la seguridad en una red corporativa simula
 Samba nos permite compartir carpetas y recursos de manera segura desde nuestro servidor Linux para que computadoras con Windows o macOS dentro de la misma red local puedan acceder de forma nativa.
 
 * Instalaremos el servicio en Ubuntu Server.
+  <p align="center">
+  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/7eb9ef3325053f49b1c85107ff66472c35bfc8a2/cap12.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+* Registramos los ususarios en la base de datos del Samba.
+ <p align="center">
+  <img src="src="https://github.com/gorkamonso2004/home-lab-samba/blob/fc34aa6033c05d002bd7c205094858c8e79244c0/cap13.png" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
 * Configuraremos el archivo `/etc/samba/smb.conf` para estructurar la sección `[Compartido_IT]`, asignando los permisos correspondientes a nuestro grupo y definiendo las restricciones para el usuario invitado.
+
+ <p align="center">
+  <img src="src="  https://github.com/gorkamonso2004/home-lab-samba/blob/fc34aa6033c05d002bd7c205094858c8e79244c0/cap14.png"" alt="Configuración de red en VirtualBox" width="80%" />
+</p>
+
+* Guardamos el archivo y reiniciamos el servicio.
 
 ---
 
