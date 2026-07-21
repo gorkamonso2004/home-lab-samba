@@ -150,10 +150,6 @@ Una vez el servidor esté configurado y activo, realizaremos las pruebas de cone
   <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/a3ec713d2496decff0c0c32392a1d8bd934b9ad5/cap17.png" alt="Configuración de red en VirtualBox" width="80%" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/755e9da01bb513a1f23aed01b0c624ca8ada759e/cap18.png" alt="Configuración de red en VirtualBox" width="80%" />
-</p>
-
 * COmprobamos que tenemos todos los permisos y que nos deja crear algun archivo.
 <p align="center">
   <img src="https://github.com/gorkamonso2004/home-lab-samba/blob/5013bdd77da2065b82484669f228602988101327/cap21.png" alt="Configuración de red en VirtualBox" width="80%" />
